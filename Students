@@ -10,16 +10,14 @@ total = sub1 + sub2 + sub3 + sub4 + sub5
 percentage = (total / 500) * 100
 
 # Assign grade based on percentage
-if percentage < 40:
+if percentage < 50:
     grade = "Failed"
-elif 40 <= percentage < 50:
-    grade = "C+"
-elif 50 <= percentage < 60:
+elif 50 <= percentage < 59:
+    grade = "D"
+elif 60 <= percentage < 69:
     grade = "C"
-elif 60 <= percentage < 70:
-    grade = "B"
 elif 70 <= percentage < 80:
-    grade = "B+"
+    grade = "B"
 elif 80 <= percentage < 90:
     grade = "A"
 elif 90 <= percentage <= 100:
